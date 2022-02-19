@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Line_Comparison_Oops
 {
-    class CheckLinesareEqual
+    class UC3_CheckTwoLines
     {
         public static void getCartesian()
         {
@@ -32,11 +32,14 @@ namespace Line_Comparison_Oops
             {
                 Console.WriteLine("The length of two lines are equal");
             }
-            else
+            else if (length1.CompareTo(length2) < 0)
             {
-                Console.WriteLine("The length of two lines are not equal");
+                Console.WriteLine("The length of line 1 is lesser than line 2");
             }
-
+            else if (length1.CompareTo(length2) > 0)
+            {
+                Console.WriteLine("The length of line 1 is greater than line 2");
+            }
         }
     }
 }
