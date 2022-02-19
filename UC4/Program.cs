@@ -8,9 +8,9 @@ namespace Line_Comparison_Oops
         {
             Console.WriteLine("Welcome to the Line Comparison Program!");
 
-  
-            UC3_CheckTwoLines.getCartesian();
-           
+            LineCompare obj = new LineCompare();
+
+            obj.CompareLines();
         }
     }
 }
