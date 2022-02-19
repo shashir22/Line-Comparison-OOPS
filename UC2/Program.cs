@@ -8,8 +8,7 @@ namespace Line_Comparison_Oops
         {
             Console.WriteLine("Welcome to the Line Comparison Program!");
 
-            Length.getCartesian();
-           
+            CheckLinesareEqual.getCartesian();
         }
     }
 }
